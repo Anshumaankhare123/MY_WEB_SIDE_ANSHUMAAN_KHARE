@@ -380,7 +380,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     left: 0;
     width: 109%;
     height: 100%;
-    
+
 }
 
 .single-about-img img {
@@ -522,7 +522,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .single-progress-txt h3 {
     width: 10%;
-    color: rgb(233, 243, 97);
+    color: rgb(0, 0, 0);
     position: relative;
     top: 6px;
     left: 20px;
@@ -798,6 +798,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*.item img*/
@@ -809,6 +810,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+
 }
 
 .isotope .item:hover img {
@@ -1084,5 +1086,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         bottom: 7px;
     }
 }
+
+* {box-sizing: border-box;}
+
+
+
+
+
+
 
 /*========================Thank you=================
